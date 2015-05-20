@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 2015.05.10. 21:34:34
+
+BeginCmp
+TimeStamp = /55493188;
+Reference = C1;
+ValeurCmp = 22uF/10V;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554EEADB;
+Reference = C2;
+ValeurCmp = 22uF/10V;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554EEB15;
+Reference = C3;
+ValeurCmp = 22uF/10V;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554F17C3;
+Reference = J1;
+ValeurCmp = USB-MINI;
+IdModule  = suf_connector_usb:A-USBB-M5-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /554F4230;
+Reference = J2;
+ValeurCmp = USB_2;
+IdModule  = suf_connector_usb:USB-A_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /54950B40;
+Reference = L1;
+ValeurCmp = 4,7uH;
+IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD-Typ-M-Typ-S_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55493044;
+Reference = L2;
+ValeurCmp = 1uH;
+IdModule  = suf_choke_smd:PCD0504_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554EECE7;
+Reference = R1;
+ValeurCmp = 309K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554EEDB1;
+Reference = R2;
+ValeurCmp = 976K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554EE37C;
+Reference = U1;
+ValeurCmp = MCP1642D-ADJ;
+IdModule  = Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm;
+EndCmp
+
+EndListe
