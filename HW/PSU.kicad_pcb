@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(after 2015-mar-04 BZR unknown)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-06-16 BZR 5762, Git d3b3131)-product")
 
   (general
     (links 21)
     (no_connects 0)
-    (area 32.546289 25.786 83.019001 48.994)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 88)
@@ -312,7 +312,7 @@
     (fp_text reference R1 (at -2.921 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 309K (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value 470K (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -341,7 +341,7 @@
     (fp_text reference R2 (at -2.921 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 976K (at 0 0 270) (layer F.SilkS) hide
+    (fp_text value 1,5M (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_line (start -2 -0.8) (end 2 -0.8) (layer F.CrtYd) (width 0.05))
@@ -361,7 +361,7 @@
     )
   )
 
-  (module Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm (layer F.Cu) (tedit 555BF5D1) (tstamp 554FB348)
+  (module Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm (layer F.Cu) (tedit 5588D397) (tstamp 554FB348)
     (at 48.895 38.735 90)
     (descr "8-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
@@ -370,7 +370,7 @@
     (fp_text reference U1 (at 0 -2.6 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP1642D-ADJ (at 0 2.6 90) (layer F.SilkS) hide
+    (fp_text value MCP1642D-ADJ (at -3.81 1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_line (start -3.2 -1.85) (end -3.2 1.85) (layer F.CrtYd) (width 0.05))
@@ -407,13 +407,13 @@
     )
   )
 
-  (module suf_connector_usb:USB-A_SMD (layer F.Cu) (tedit 556CC6DE) (tstamp 554FB324)
+  (module suf_connector_usb:USB-A_SMD (layer F.Cu) (tedit 5588D3C2) (tstamp 554FB324)
     (at 72.39 37.465 180)
     (path /554F4230)
     (fp_text reference J2 (at 0 10.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB_2 (at 0 -10.5 180) (layer F.Fab)
+    (fp_text value USB_2 (at 0 -10.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 4.5 -6.5) (end -10.3 -6.5) (layer F.SilkS) (width 0.15))
@@ -432,13 +432,13 @@
     (pad "" thru_hole circle (at 0 6.57 180) (size 4 4) (drill 2.3) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module suf_choke_smd:PCD0504_Handsoldering (layer F.Cu) (tedit 556E2034) (tstamp 554FB330)
+  (module suf_choke_smd:PCD0504_Handsoldering (layer F.Cu) (tedit 5588D3A6) (tstamp 554FB330)
     (at 60.325 39.37)
     (path /55493044)
     (fp_text reference L2 (at 0 3.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1uH (at 0 -3.6) (layer F.Fab)
+    (fp_text value 1uH (at 0 -3.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end -3 0) (layer F.SilkS) (width 0.15))
